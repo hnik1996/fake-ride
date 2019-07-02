@@ -1,0 +1,44 @@
+{
+  "groups": [
+    {
+      "name": "fake-ride.cache",
+      "type": "ir.carpino.fakeRide.configuraiton.CacheConfiguration",
+      "sourceType": "ir.carpino.fakeRide.configuraiton.CacheConfiguration"
+    },
+    {
+      "name": "fake-ride.mqtt",
+      "type": "ir.carpino.fakeRide.configuraiton.MqttConfiguration",
+      "sourceType": "ir.carpino.fakeRide.configuraiton.MqttConfiguration"
+    }
+  ],
+  "properties": [
+    {
+      "name": "fake-ride.cache.expire-time",
+      "type": "java.lang.Integer",
+      "sourceType": "ir.carpino.fakeRide.configuraiton.CacheConfiguration",
+      "defaultValue": 0
+    },
+    {
+      "name": "fake-ride.mqtt.connection-timeout",
+      "type": "java.lang.Integer",
+      "sourceType": "ir.carpino.fakeRide.configuraiton.MqttConfiguration",
+      "defaultValue": 0
+    },
+    {
+      "name": "fake-ride.mqtt.password",
+      "type": "java.lang.String",
+      "sourceType": "ir.carpino.fakeRide.configuraiton.MqttConfiguration"
+    },
+    {
+      "name": "fake-ride.mqtt.url",
+      "type": "java.lang.String",
+      "sourceType": "ir.carpino.fakeRide.configuraiton.MqttConfiguration"
+    },
+    {
+      "name": "fake-ride.mqtt.username",
+      "type": "java.lang.String",
+      "sourceType": "ir.carpino.fakeRide.configuraiton.MqttConfiguration"
+    }
+  ],
+  "hints": []
+}
